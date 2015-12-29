@@ -39,7 +39,6 @@ UBRR0L	=	(uint8_t) ((_UBRR) & 0xFF);
 DDRD |= _BV(PD1); 
 DDRD &= ~_BV(PD0);
 }
-
 /*The extra code needed to do this is enabled 
 by tagging the interrupt function with __attribute__((signal)).*/
 
